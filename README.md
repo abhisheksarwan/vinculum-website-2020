@@ -2,7 +2,7 @@
 
 Source code for the website of V!nculum 2020 by **Society Of Computer Applications** will be available here.
 
-Website URL : [V!inculum](https://scanitjsr.org/vinculum)
+Website URL : [V!nculum](https://scanitjsr.org/vinculum)
 
 ## Steps for contributing:
 1) Fork this repository.
