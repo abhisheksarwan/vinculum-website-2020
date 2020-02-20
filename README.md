@@ -6,12 +6,8 @@ Website URL : [V!nculum](https://scanitjsr.org/vinculum)
 
 ## Steps for contributing:
 1) Fork this repository.
-2) Add your code with given format in the first line in comments of code.
 
-`
-Author Name: Your Name`
-
-`GitHub Profile : Your GitHub profile link`
+2) Make the necessary changes.
 
 3) Add your name in Contributors.md file in given format.
 
