@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,26 +10,29 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
   <style>
-    @import url('https://fonts.googleapis.com/css?family=Amatic+SC&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
+    .amatic {
+      font-family: 'Amatic SC', cursive;
+      font-weight: 700;
+    }
   </style>
 </head>
-
 <body>
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#">V!nculum</a>
+        <a class="navbar-brand" href="#"><img src="logo.png" height="40rem" alt="V!nculum"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active  hvr-underline-from-left">
+              <a class="nav-link h4 amatic" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Register</a>
+            <li class="nav-item  hvr-underline-from-left">
+              <a class="nav-link h4 amatic" href="#">Register</a>
             </li>
           </ul>
         </div>
@@ -60,5 +62,4 @@
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
     data-cf-beacon='{"rayId":"5677c5bf9f02e25b","version":"2019.10.2","startTime":1582110397442}'></script>
 </body>
-
 </html>
