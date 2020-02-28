@@ -17,6 +17,24 @@ hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padd
 input,select{vertical-align:middle}
 li{list-style:none}
 
+p{
+    font-size:1.01rem;
+}
+
+body{
+  background-color: black! important;
+  color: white;
+
+}
+
+.scrolled {
+  background: rgb(0, 0, 0)! important;
+}
+
+.image-fill {
+  width: 100%;
+}
+
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
@@ -136,4 +154,11 @@ canvas{
   background-repeat: no-repeat;
   opacity: 1;
   display: block;
+}
+
+@media (min-width:768px)
+{
+p{
+  font-size:1.2rem;
+}  
 }
