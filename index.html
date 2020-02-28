@@ -3,12 +3,15 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Vinculum | Mega Event by SCA</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="favicon.jpg" rel="icon">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<meta content="SCA, Vinculum, Mega Event, NIT Jamshedpur, NIT JSR, MCA" name="keywords">
+<meta content="Vinculum is the Mega Event organised by Society of Computer Applications, N.I.T. Jamshedpur. It's a three days event organised for the students of Department of Computer Applications." name="description">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
   <style>
     @import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700&display=swap');
     .amatic {
@@ -19,7 +22,7 @@
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+    <nav id="mainNav" class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="logo.png" height="40rem" alt="V!nculum"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -28,12 +31,17 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active  hvr-underline-from-left">
-              <a class="nav-link h4 amatic" href="#">Home <span class="sr-only">(current)</span></a>
+            <li class="nav-item active">
+              <a class="nav-link h4 amatic hvr-underline-from-left" href="#">Home <span
+                  class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item  hvr-underline-from-left">
-              <a class="nav-link h4 amatic" href="#">Register</a>
+            <li class="nav-item ">
+              <a class="nav-link h4 amatic hvr-underline-from-left page-scroll" href="#events">Events</a>
             </li>
+            <li class="nav-item ">
+              <a class="nav-link h4 amatic hvr-underline-from-left" href="#">Register</a>
+            </li>
+
           </ul>
         </div>
       </div>
@@ -44,10 +52,74 @@
     <div class="d-flex flex-column justify-content-center align-items-center" id="overlay">
       <div class="display-3 text-light shake-slow shake-constant" style="font-family: 'Amatic SC', cursive;">V!nculum
       </div>
-      <div class="btn btn-lg btn-cmn btn-outline-warning mb-5 shake-opacity shake-constant"
-        style="font-family: 'Amatic SC', cursive;">Coming Soon</div>
+      <div class="shake-slow shake-constant">
+      <div class="btn btn-lg btn-cmn btn-outline-warning mr-1 amatic">Register</div>
+           <a class="btn btn-lg btn-cmn btn-outline-warning ml-1 amatic page-scroll" href="#events">Events</a>
     </div>
   </div>
+  </div>
+  <section id="events">
+    <div class="container-fluid">
+      <div class="row d-flex">
+        <div
+          class="col-12 col-md-6 text-center d-flex flex-column justify-content-center align-items-center order-1 order-md-0 my-5 my-md-0">
+          <h1 class="h1 amatic animated wow zoomIn">HackO'Clock</h1>
+          <p class="mx-5 animated wow flipInX">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam, sequi consectetur iste delectus atque molestiae eos! Quibusdam nobis voluptatum, earum exercitationem incidunt laudantium saepe ipsum itaque eaque? Beatae ut molestias totam possimus amet consectetur ipsum laudantium dolorem, non quaerat soluta at esse accusamus quis quam placeat. Optio, odit consectetur.</p>
+        </div>
+        <div class=" col-12 col-md-6 p-0 order-0 order-md-1">
+            <img class="img-fluid image-fill" src="img/hackoclock.jpg">
+        </div>
+      </div>
+
+      <div class="row d-flex">
+
+        <div class="col-12 col-md-6 p-0">
+          <img class="img-fluid image-fill" src="img/alohomora.jpg">
+        </div>
+        <div
+          class="col-12 col-md-6 text-center d-flex flex-column justify-content-center align-items-centermy-md-0 my-5 my-md-0">
+          <h1 class="h1 amatic animated wow zoomIn">Alo-Homora</h1>
+          <p class="mx-5 animated wow flipInX">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam, sequi consectetur iste delectus atque molestiae eos! Quibusdam nobis voluptatum, earum exercitationem incidunt laudantium saepe ipsum itaque eaque? Beatae ut molestias totam possimus amet consectetur ipsum laudantium dolorem, non quaerat soluta at esse accusamus quis quam placeat. Optio, odit consectetur.</p>
+          </div>
+          </div>
+
+          <div class=" row d-flex">
+            <div
+              class="col-12 col-md-6 text-center d-flex flex-column justify-content-center align-items-center order-1 order-md-0 my-5 my-md-0">
+              <h1 class="h1 amatic animated wow zoomIn">Ad-Hogs</h1>
+              <p class="mx-5 animated wow flipInX">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam, sequi consectetur iste delectus atque molestiae eos! Quibusdam nobis voluptatum, earum exercitationem incidunt laudantium saepe ipsum itaque eaque? Beatae ut molestias totam possimus amet consectetur ipsum laudantium dolorem, non quaerat soluta at esse accusamus quis quam placeat. Optio, odit consectetur.</p>
+            </div>
+            <div class=" col-12 col-md-6 p-0 order-0 order-md-1">
+                <img class="img-fluid image-fill" src="img/adhogs.jpg">
+            </div>
+        </div>
+
+        <div class="row d-flex">
+
+          <div class="col-12 col-md-6 p-0">
+            <img class="img-fluid image-fill" src="img/codeknight.jpg">
+          </div>
+          <div
+            class="col-12 col-md-6 text-center d-flex flex-column justify-content-center align-items-centermy-md-0 my-5 my-md-0">
+            <h1 class="h1 amatic animated wow zoomIn">CodeKnight</h1>
+            <p class="mx-5 animated wow flipInX">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam, sequi consectetur iste delectus atque molestiae eos! Quibusdam nobis voluptatum, earum exercitationem incidunt laudantium saepe ipsum itaque eaque? Beatae ut molestias totam possimus amet consectetur ipsum laudantium dolorem, non quaerat soluta at esse accusamus quis quam placeat. Optio, odit consectetur.</p>
+              </div>
+              </div>
+    
+              <div class=" row d-flex">
+              <div
+                class="col-12 col-md-6 text-center d-flex flex-column justify-content-center align-items-center order-1 order-md-0 my-5 my-md-0">
+                <h1 class="h1 amatic animated wow zoomIn">Inquizitive</h1>
+                <p class="mx-5 animated wow flipInX">Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam, sequi consectetur iste delectus atque molestiae eos! Quibusdam nobis voluptatum, earum exercitationem incidunt laudantium saepe ipsum itaque eaque? Beatae ut molestias totam possimus amet consectetur ipsum laudantium dolorem, non quaerat soluta at esse accusamus quis quam placeat. Optio, odit consectetur.</p>
+                </div>
+                <div class=" col-12 col-md-6 p-0 order-0 order-md-1">
+                  <img class="img-fluid image-fill" src="img/quiz.jpg">
+              </div>
+          </div>
+
+        </div>
+  </section>
+
   <script src="js/particles.min.js"></script>
   <script src="js/app.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -57,9 +129,32 @@
     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js">
+  </script>
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@16.1.2/dist/smooth-scroll.js">
   </script>
   <script defer src="https://static.cloudflareinsights.com/beacon.min.js"
     data-cf-beacon='{"rayId":"5677c5bf9f02e25b","version":"2019.10.2","startTime":1582110397442}'></script>
+    
+
+    
+
+  <script>
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $("#mainNav");
+        $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+      });
+    });
+    
+  </script>
+  <script>
+              new WOW().init();
+              </script>
+              <script>
+	var scroll = new SmoothScroll('.page-scroll');
+</script>
+
 </body>
 </html>
